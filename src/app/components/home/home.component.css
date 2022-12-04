@@ -1,15 +1,13 @@
-.hero {
-  padding: 2rem 4rem;
+section {
+  padding: 7rem 5rem;
 }
 
-.hero-images {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem;
+.hero-image {
+  margin-top: 3rem;
 }
 
 .hero-description {
-  margin-top: 5rem;
+  margin-top: 7rem;
   text-align: center;
 }
 
@@ -36,4 +34,14 @@
   color: #4D4D4D;
   font-weight: 500;
   font-size: 18px;
+}
+
+.card .img-wrapper {
+  padding: .5rem;
+}
+
+.card .img-wrapper img {
+  border-radius: 50%;
+  width: 200px;
+  height: 195px;
 }

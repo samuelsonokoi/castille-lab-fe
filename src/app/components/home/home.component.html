@@ -1,8 +1,8 @@
-<section class="hero shadow-sm">
-  <div class="container">
+<section class="shadow-sm">
+  <div class="container-fluid">
     <div class="row mb-4">
       <div class="col-lg-2 align-self-start">
-        <img class="img-fluid" src="./assets/images/hero-image-left.svg" alt="Hero Image Left" />
+        <img class="img-fluid hero-image" src="./assets/images/hero-image-left.svg" alt="Hero Image Left" />
       </div>
       <div class="col-lg-8 align-self-center">
         <div class="hero-description">
@@ -12,36 +12,57 @@
         </div>
       </div>
       <div class="col-lg-2 align-self-start">
-        <img src="./assets/images/hero-image-right.svg" alt="Hero Image Right" class="img-fluid" />
+        <img src="./assets/images/hero-image-right.svg" alt="Hero Image Right" class="img-fluid hero-image" />
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-lg-3">
+    <div class="row justify-content-md-center mt-5">
+      <div class="col-lg-2">
         <div class="hero-card">
           <img src="./assets/images/subtract.svg" alt="calenda" class="img-fluid" />
           <p class="txt-lg">2007</p>
           <small>Year founded</small>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-2">
         <div class="hero-card">
           <img src="./assets/images/union.svg" alt="union" class="img-fluid" />
           <p class="txt-lg">50+</p>
           <small>Employees</small>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-2">
         <div class="hero-card">
           <img src="./assets/images/globe.svg" alt="globe" class="img-fluid" />
           <p class="txt-lg">9+</p>
           <small>Nationalities</small>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-2">
         <div class="hero-card">
           <img src="./assets/images/client.svg" alt="clients" class="img-fluid" />
           <p class="txt-lg">1000+</p>
           <small>Clients serviced</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container-fluid">
+    <div class="row justify-content-md-center">
+      <div class="col-lg-12 mb-5">
+        <p class="title">Who you’ll be working with</p>
+      </div>
+      <div class="col-lg-3" *ngFor="let p of people">
+        <div class="card text-center">
+          <div class="img-wrapper">
+            <img [src]="p.image" class="img-fluid" [alt]="p.name" />
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{p.name}}</p>
+            <small>{{p.role}}</small>
+          </div>
         </div>
       </div>
     </div>
