@@ -3,9 +3,19 @@
   margin: 0;
   font-family: 'Montserrat',
   sans-serif;
+  color: #1E1D1C;
 }
 
 .btn-bg-primary {
   background: #AA182C;
   color: #fff;
+}
+
+.txt-primary {
+  color: #AA182C;
+}
+
+.txt-lg {
+  font-weight: 600;
+  font-size: 48px;
 }

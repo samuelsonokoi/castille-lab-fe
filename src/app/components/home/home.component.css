@@ -1,0 +1,39 @@
+.hero {
+  padding: 2rem 4rem;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.hero-description {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.hero-description span {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hero-description h1 {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.hero-card {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero-card p {
+  margin: 1rem 0 0 0;
+}
+
+.hero-card small {
+  color: #4D4D4D;
+  font-weight: 500;
+  font-size: 18px;
+}
