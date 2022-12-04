@@ -31,17 +31,6 @@ section {
 }
 
 .hero-card small {
-  color: #4D4D4D;
   font-weight: 500;
   font-size: 18px;
-}
-
-.card .img-wrapper {
-  padding: .5rem;
-}
-
-.card .img-wrapper img {
-  border-radius: 50%;
-  width: 200px;
-  height: 195px;
 }

@@ -1,0 +1,25 @@
+.card .img-wrapper  {
+  padding: .5rem;
+}
+
+.dbg {
+  background-image: url('/assets/images/deborah-bg.svg');
+  width: fit-content;
+  border-radius: 50%;
+}
+
+.card .img-wrapper img {
+  border-radius: 50%;
+  width: 200px;
+  height: 195px;
+}
+
+.card-text {
+  font-weight: 900;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 1.25rem 0;
+}

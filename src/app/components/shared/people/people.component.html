@@ -1,0 +1,10 @@
+<div class="card text-center">
+  <div class="img-wrapper">
+    <img [src]="people.image" class="img-fluid" [alt]="people.name"
+      [ngClass]="{'dbg': people.name.includes('Deborah Melinda Arlanda')}" />
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{people.name}}</p>
+    <small class="txt-light">{{people.role}}</small>
+  </div>
+</div>
