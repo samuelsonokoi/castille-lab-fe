@@ -1,0 +1,20 @@
+<div class="card h-100">
+  <div class="img-wrapper">
+    <img [src]="job.image" class="img-fluid" [alt]="job.company" />
+    <p>{{job.company}}</p>
+  </div>
+  <div class="card-body">
+    <p class="card-title">{{job.title}}</p>
+    <div class="requirements" *ngFor="let item of job.requirements">
+      <img [src]="item.icon" class="img-fluid icon" [alt]="item.requirement" />
+      <p>{{item.requirement}}</p>
+    </div>
+    <div class="mt-3">
+      <span class="badge badge-pill pill mr-2 mt-2" *ngFor="let tag of job.tags">{{tag}}</span>
+    </div>
+  </div>
+  <div class="card-footer">
+    <fa-icon icon="bookmark" class="mr-3 light-color"></fa-icon>
+    <fa-icon icon="eye-slash" class="light-color"></fa-icon>
+  </div>
+</div>

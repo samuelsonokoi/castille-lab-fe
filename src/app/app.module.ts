@@ -12,9 +12,10 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { PeopleComponent } from './components/shared/people/people.component';
+import { JobCardComponent } from './components/shared/job-card/job-card.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, PeopleComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, PeopleComponent, JobCardComponent],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],

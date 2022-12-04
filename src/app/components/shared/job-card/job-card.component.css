@@ -1,0 +1,63 @@
+.card {
+  border-radius: 15px;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.img-wrapper p {
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 1rem;
+  display: flex;
+  align-self: end;
+}
+
+.card-title { 
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.card-body {
+  padding: 0 1rem 1rem 1rem;
+}
+
+.requirements {
+  display: flex;
+  align-items: center;
+  margin-top: .7rem;
+}
+
+.requirements p {
+  margin: 0 0 0 1rem;
+  font-weight: 500;
+  font-size: 11px;
+  color: #4D4D4D;
+}
+
+.icon {
+  height: 1rem;
+}
+
+.pill {
+  background: #F4F4F4;
+  border: 1px solid #E5E5E5;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 11px;
+  color: #4D4D4D;
+  padding: .5rem;
+}
+
+fa-icon.light-color ::ng-deep svg path {
+  fill: #C4C4C4;
+  transition: all ease-in 0.3s;
+}
+
+fa-icon.light-color:hover ::ng-deep svg path {
+  fill: #4D4D4D;
+  cursor: pointer;
+}

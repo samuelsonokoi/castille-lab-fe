@@ -29,3 +29,11 @@
   font-size: 42px;
   text-align: center;
 }
+
+.mt-7 {
+  margin-top: 7rem;
+}
+
+.mb-7 {
+  margin-bottom: 7rem;
+}
