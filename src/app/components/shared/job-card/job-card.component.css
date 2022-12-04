@@ -5,7 +5,7 @@
 .img-wrapper {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem 1.3rem 1rem 1.3rem;
 }
 
 .img-wrapper p {
@@ -22,7 +22,7 @@
 }
 
 .card-body {
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1.3rem 1.3rem 1.3rem;
 }
 
 .requirements {
@@ -54,7 +54,7 @@
 
 fa-icon.light-color ::ng-deep svg path {
   fill: #C4C4C4;
-  transition: all ease-in 0.3s;
+  transition: all ease-in 0.2s;
 }
 
 fa-icon.light-color:hover ::ng-deep svg path {

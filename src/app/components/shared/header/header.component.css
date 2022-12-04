@@ -14,7 +14,7 @@
 .nav-wrapper ul li {
   list-style: none;
   padding: 1.3rem 2rem;
-  transition: all ease-in 0.3s;
+  transition: all ease-in 0.2s;
   display: flex;
   align-self: center;
 }
@@ -23,7 +23,7 @@
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  transition: all ease-in 0.3s;
+  transition: all ease-in 0.2s;
 }
 
 .nav-wrapper ul li:hover, .nav-wrapper ul li:hover a {
