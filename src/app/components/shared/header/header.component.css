@@ -1,0 +1,45 @@
+.nav-wrapper {
+  display: flex;
+}
+
+.logo {
+  padding: 1rem 3rem;
+}
+
+.nav-wrapper ul {
+  margin: 0 3rem 0 0;
+  display: flex;
+}
+
+.nav-wrapper ul li {
+  list-style: none;
+  padding: 1.3rem 2rem;
+  transition: all 0.5ms linear;
+  display: flex;
+  align-self: center;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-wrapper ul li:hover, .nav-wrapper ul li:hover a {
+  cursor: pointer;
+  color: #AA182C;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-wrapper ul.less-padding li {
+  padding: 1rem;
+}
+
+.nav-wrapper ul.less-padding li:last-child {
+  border-left: 1px solid #E5E5E5;
+}

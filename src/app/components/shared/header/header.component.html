@@ -1,1 +1,36 @@
-<fa-icon icon="coffee"></fa-icon>
+<nav class="shadow-sm">
+  <div class="nav-wrapper">
+    <div class="logo">
+      <a [routerLink]="[ '/', ]">
+        <img src="./assets/images/logo.svg" alt="Castille Lab Logo" />
+      </a>
+    </div>
+
+    <div class="navigation">
+      <ul>
+        <li>
+          <a [routerLink]="[ '/' ]">Jobs</a>
+        </li>
+        <li>
+          <a [routerLink]="[ '/' ]">Salaries</a>
+        </li>
+        <li>
+          <a [routerLink]="[ '/' ]">Resources <fa-icon class="ml-2" icon="chevron-down"></fa-icon></a>
+        </li>
+      </ul>
+
+      <ul class="less-padding">
+        <li>
+          <fa-icon icon="magnifying-glass"></fa-icon>
+        </li>
+        <li>
+          <a [routerLink]="[ '/' ]" class="btn btn-bg-primary text-white">Register for jobs</a>
+        </li>
+        <li>
+          <a [routerLink]="[ '/' ]">Log in</a>
+        </li>
+        <li><a [routerLink]="[ '/' ]">Hire Talent</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
