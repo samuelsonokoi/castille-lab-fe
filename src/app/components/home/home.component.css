@@ -34,3 +34,17 @@ section {
   font-weight: 500;
   font-size: 18px;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  section {
+    padding: 1rem;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .hero-description {
+    margin-top: 1rem;
+  }
+}

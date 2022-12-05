@@ -1,5 +1,7 @@
 .nav-wrapper {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .logo {
@@ -7,8 +9,8 @@
 }
 
 .nav-wrapper ul {
-  margin: 0 3rem 0 0;
   display: flex;
+  margin-bottom: 0;
 }
 
 .nav-wrapper ul li {
@@ -43,4 +45,30 @@
 
 .nav-wrapper ul.less-padding li:last-child {
   border-left: 1px solid #E5E5E5;
+}
+
+fa-icon.menu-bar ::ng-deep svg path {
+  fill: #AA182C;
+  cursor: pointer;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .logo {
+    padding: 1rem;
+  }
+
+  .nav-wrapper ul li {
+    padding: 1.3rem 1rem;
+  }
+
+  .navigation .first-nav li {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .logo {
+    padding: 1rem;
+  }
 }

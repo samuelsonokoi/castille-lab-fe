@@ -22,6 +22,7 @@ footer p {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
 
 li {
@@ -52,4 +53,9 @@ hr {
 
 .list-inline-item a:hover, li a.link:hover {
   color: #AA182C;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: space-between;
 }

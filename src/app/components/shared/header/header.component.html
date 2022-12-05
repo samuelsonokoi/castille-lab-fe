@@ -1,5 +1,5 @@
 <nav class="shadow-sm">
-  <div class="nav-wrapper">
+  <div class="nav-wrapper container-fluid">
     <div class="logo">
       <a [routerLink]="[ '/', ]">
         <img src="./assets/images/logo.svg" alt="Castille Lab Logo" />
@@ -8,13 +8,13 @@
 
     <div class="navigation">
       <ul>
-        <li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
           <a [routerLink]="[ '/' ]">Jobs</a>
         </li>
-        <li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
           <a [routerLink]="[ '/' ]">Salaries</a>
         </li>
-        <li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
           <a [routerLink]="[ '/' ]">Resources <fa-icon class="ml-2" icon="chevron-down"></fa-icon></a>
         </li>
       </ul>
@@ -23,13 +23,18 @@
         <li>
           <fa-icon icon="magnifying-glass"></fa-icon>
         </li>
-        <li>
+        <li class="d-none d-sm-block d-md-block d-lg-none">
+          <fa-icon class="menu-bar" icon="bars"></fa-icon>
+        </li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
           <a [routerLink]="[ '/' ]" class="btn btn-bg-primary text-white">Register for jobs</a>
         </li>
-        <li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
           <a [routerLink]="[ '/' ]">Log in</a>
         </li>
-        <li><a [routerLink]="[ '/' ]">Hire Talent</a></li>
+        <li class="d-none d-md-none d-lg-block d-xl-block">
+          <a [routerLink]="[ '/' ]">Hire Talent</a>
+        </li>
       </ul>
     </div>
   </div>
